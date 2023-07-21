@@ -21,3 +21,7 @@
 
 /* Locking resynchronize hack */
 #define LOCKING_RESYNC_ENABLE
+
+/* Set key for BootMagic Lite (jumping into bootloader without needing to short the reset pins of MCU)*/
+#define BOOTMAGIC_LITE_ROW 0
+#define BOOTMAGIC_LITE_COLUMN 0
