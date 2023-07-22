@@ -25,3 +25,7 @@
 /* Set key for BootMagic Lite (jumping into bootloader without needing to short the reset pins of MCU)*/
 #define BOOTMAGIC_LITE_ROW 0
 #define BOOTMAGIC_LITE_COLUMN 0
+
+/* Set RX LED for displaying numlock state*/
+#define LED_PIN_ON_STATE	1
+#define LED_NUM_LOCK_PIN    B0
